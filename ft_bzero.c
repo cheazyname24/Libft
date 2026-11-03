@@ -6,7 +6,7 @@
 /*   By: aboriske <aboriske@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 16:30:30 by aboriske          #+#    #+#             */
-/*   Updated: 2026/11/03 16:41:25 by aboriske         ###   ########.fr       */
+/*   Updated: 2026/11/03 17:17:05 by aboriske         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,13 @@
 void	ft_bzero(void *s, size_t n)
 {
 	size_t	i;
+	char	*string;
 
+	string = s;
 	i = 0;
 	while (i < n)
 	{
-		((char *)s)[i] = '\0';
+		string[i] = '\0';
 		i++;
 	}
 }
