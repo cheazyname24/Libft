@@ -6,16 +6,16 @@
 /*   By: aboriske <aboriske@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 16:57:41 by aboriske          #+#    #+#             */
-/*   Updated: 2026/11/02 17:04:39 by aboriske         ###   ########.fr       */
+/*   Updated: 2026/11/03 13:34:21 by aboriske         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-size_t	ft_strlen(const char *s)
+size_t	ft_strlen(const char *string)
 {
 	size_t	i;
 
 	i = 0;
-	while (s[i])
+	while (string[i])
 		i++;
 	return (i);
 }
