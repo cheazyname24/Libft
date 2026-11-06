@@ -9,7 +9,10 @@ int	main(int argc, char **argv)
 	int		c;
 
 	if (argc != 3)
+	{
+		printf("Invalid amount of arguments!\n");
 		return (0);
+	}
 	if (argv[1][0] != '\0' && argv[1][1] == '\0')
 		c = argv[1][0];
 	else
