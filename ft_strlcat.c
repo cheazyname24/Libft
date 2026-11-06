@@ -6,7 +6,7 @@
 /*   By: aboriske <aboriske@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/06 12:06:11 by aboriske          #+#    #+#             */
-/*   Updated: 2026/11/06 12:47:49 by aboriske         ###   ########.fr       */
+/*   Updated: 2026/11/06 14:02:57 by aboriske         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	j = 0;
 	while (i < size && dst[i])
 		i++;
-	while (i < size)
+	while (src[j])
 	{
 		dst[i] = src[j];
 		i++;
