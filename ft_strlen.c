@@ -6,9 +6,11 @@
 /*   By: aboriske <aboriske@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/02 16:57:41 by aboriske          #+#    #+#             */
-/*   Updated: 2026/11/03 13:34:21 by aboriske         ###   ########.fr       */
+/*   Updated: 2026/11/07 19:13:14 by aboriske         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stddef.h>
 
 size_t	ft_strlen(const char *string)
 {
