@@ -6,11 +6,13 @@
 /*   By: aboriske <aboriske@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 19:21:23 by aboriske          #+#    #+#             */
-/*   Updated: 2026/11/07 19:43:38 by aboriske         ###   ########.fr       */
+/*   Updated: 2026/11/09 11:21:35 by aboriske         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include <stdlib.h>
+
+size_t	ft_strlen(const char *string);
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
